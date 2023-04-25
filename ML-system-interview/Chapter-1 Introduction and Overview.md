@@ -1,10 +1,39 @@
-[toc]
 
-# To structure answers
-
+- [1. Clarifying requirements](#1-clarifying-requirements)
+  - [business objective](#business-objective)
+  - [features the system needs to support](#features-the-system-needs-to-support)
+  - [data](#data)
+  - [constraints](#constraints)
+  - [scale of the system](#scale-of-the-system)
+  - [performance](#performance)
+- [2. Framing the problem as an ML task](#2-framing-the-problem-as-an-ml-task)
+  - [Defining the ML objective](#defining-the-ml-objective)
+  - [Specifying the system's input and output](#specifying-the-systems-input-and-output)
+  - [Choosing the right ML category](#choosing-the-right-ml-category)
+    - [Common ML categories](#common-ml-categories)
+- [3. Data preparation](#3-data-preparation)
+  - [Data engineering](#data-engineering)
+    - [Data source](#data-source)
+    - [Data storage (database)](#data-storage-database)
+    - [Extract, transform, and load (ETL)](#extract-transform-and-load-etl)
+    - [Data types in ML](#data-types-in-ml)
+  - [Feature engineering](#feature-engineering)
+    - [Operations](#operations)
+      - [Missing values](#missing-values)
+      - [Feature Scaling](#feature-scaling)
+      - [Discretization](#discretization)
+      - [Encoding categorical features](#encoding-categorical-features)
+        - [integer encoding](#integer-encoding)
+        - [one-hot encoding](#one-hot-encoding)
+      - [embedding learning](#embedding-learning)
+- [4. Model development](#4-model-development)
+- [5. Evaluation](#5-evaluation)
+- [6. Deployment and serving](#6-deployment-and-serving)
+- [7. Monitoring and infrastructure](#7-monitoring-and-infrastructure)
 ## 1. Clarifying requirements
 
 Ensure everyone is on the same page.
+
 
 ### business objective
 
